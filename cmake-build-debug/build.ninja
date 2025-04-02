@@ -55,6 +55,156 @@ build CMakeFiles/aoc_2019.dir/main.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug
   OBJECT_DIR = CMakeFiles/aoc_2019.dir
   OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir
 
+build CMakeFiles/aoc_2019.dir/day_1/Day1.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_1/Day1.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_1/Day1.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_1
+
+build CMakeFiles/aoc_2019.dir/day_2/Day2.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_2/Day2.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_2/Day2.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_2
+
+build CMakeFiles/aoc_2019.dir/day_3/Day3.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_3/Day3.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_3/Day3.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_3
+
+build CMakeFiles/aoc_2019.dir/day_12/Day12.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_12/Day12.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_12/Day12.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_12
+
+build CMakeFiles/aoc_2019.dir/day_10/Day10.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_10/Day10.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_10/Day10.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_10
+
+build CMakeFiles/aoc_2019.dir/day_11/Day11.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_11/Day11.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_11/Day11.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_11
+
+build CMakeFiles/aoc_2019.dir/day_6/Day6.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_6/Day6.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_6/Day6.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_6
+
+build CMakeFiles/aoc_2019.dir/day_9/Day9.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_9/Day9.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_9/Day9.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_9
+
+build CMakeFiles/aoc_2019.dir/day_7/Day7.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_7/Day7.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_7/Day7.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_7
+
+build CMakeFiles/aoc_2019.dir/day_4/Day4.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_4/Day4.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_4/Day4.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_4
+
+build CMakeFiles/aoc_2019.dir/day_8/Day8.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_8/Day8.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_8/Day8.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_8
+
+build CMakeFiles/aoc_2019.dir/day_5/Day5.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_5/Day5.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_5/Day5.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_5
+
+build CMakeFiles/aoc_2019.dir/day_13/Day13.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_13/Day13.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_13/Day13.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_13
+
+build CMakeFiles/aoc_2019.dir/day_14/Day14.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_14/Day14.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_14/Day14.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_14
+
+build CMakeFiles/aoc_2019.dir/day_15/Day15.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_15/Day15.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_15/Day15.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_15
+
+build CMakeFiles/aoc_2019.dir/day_16/Day16.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_16/Day16.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_16/Day16.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_16
+
+build CMakeFiles/aoc_2019.dir/day_17/Day17.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_17/Day17.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_17/Day17.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_17
+
+build CMakeFiles/aoc_2019.dir/day_18/Day18.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_18/Day18.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_18/Day18.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_18
+
+build CMakeFiles/aoc_2019.dir/day_19/Day19.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_19/Day19.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_19/Day19.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_19
+
+build CMakeFiles/aoc_2019.dir/day_20/Day20.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_20/Day20.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_20/Day20.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_20
+
+build CMakeFiles/aoc_2019.dir/day_21/Day21.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_21/Day21.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_21/Day21.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_21
+
+build CMakeFiles/aoc_2019.dir/day_22/Day22.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_22/Day22.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_22/Day22.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_22
+
+build CMakeFiles/aoc_2019.dir/day_23/Day23.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_23/Day23.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_23/Day23.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_23
+
+build CMakeFiles/aoc_2019.dir/day_24/Day24.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_24/Day24.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_24/Day24.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_24
+
+build CMakeFiles/aoc_2019.dir/day_25/Day25.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug /Users/pim/github/aoc_2019/day_25/Day25.cpp || cmake_object_order_depends_target_aoc_2019
+  DEP_FILE = CMakeFiles/aoc_2019.dir/day_25/Day25.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/aoc_2019.dir
+  OBJECT_FILE_DIR = CMakeFiles/aoc_2019.dir/day_25
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target aoc_2019
@@ -63,7 +213,7 @@ build CMakeFiles/aoc_2019.dir/main.cpp.o: CXX_COMPILER__aoc_2019_unscanned_Debug
 #############################################
 # Link the executable aoc_2019
 
-build aoc_2019: CXX_EXECUTABLE_LINKER__aoc_2019_Debug CMakeFiles/aoc_2019.dir/main.cpp.o
+build aoc_2019: CXX_EXECUTABLE_LINKER__aoc_2019_Debug CMakeFiles/aoc_2019.dir/main.cpp.o CMakeFiles/aoc_2019.dir/day_1/Day1.cpp.o CMakeFiles/aoc_2019.dir/day_2/Day2.cpp.o CMakeFiles/aoc_2019.dir/day_3/Day3.cpp.o CMakeFiles/aoc_2019.dir/day_12/Day12.cpp.o CMakeFiles/aoc_2019.dir/day_10/Day10.cpp.o CMakeFiles/aoc_2019.dir/day_11/Day11.cpp.o CMakeFiles/aoc_2019.dir/day_6/Day6.cpp.o CMakeFiles/aoc_2019.dir/day_9/Day9.cpp.o CMakeFiles/aoc_2019.dir/day_7/Day7.cpp.o CMakeFiles/aoc_2019.dir/day_4/Day4.cpp.o CMakeFiles/aoc_2019.dir/day_8/Day8.cpp.o CMakeFiles/aoc_2019.dir/day_5/Day5.cpp.o CMakeFiles/aoc_2019.dir/day_13/Day13.cpp.o CMakeFiles/aoc_2019.dir/day_14/Day14.cpp.o CMakeFiles/aoc_2019.dir/day_15/Day15.cpp.o CMakeFiles/aoc_2019.dir/day_16/Day16.cpp.o CMakeFiles/aoc_2019.dir/day_17/Day17.cpp.o CMakeFiles/aoc_2019.dir/day_18/Day18.cpp.o CMakeFiles/aoc_2019.dir/day_19/Day19.cpp.o CMakeFiles/aoc_2019.dir/day_20/Day20.cpp.o CMakeFiles/aoc_2019.dir/day_21/Day21.cpp.o CMakeFiles/aoc_2019.dir/day_22/Day22.cpp.o CMakeFiles/aoc_2019.dir/day_23/Day23.cpp.o CMakeFiles/aoc_2019.dir/day_24/Day24.cpp.o CMakeFiles/aoc_2019.dir/day_25/Day25.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
   OBJECT_DIR = CMakeFiles/aoc_2019.dir
   POST_BUILD = :

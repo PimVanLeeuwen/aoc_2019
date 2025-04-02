@@ -3,4 +3,55 @@ project(aoc_2019)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(aoc_2019 main.cpp)
+add_executable(aoc_2019
+        main.cpp
+        day_1/Day1.cpp
+        day_1/Day1.h
+        day_2/Day2.cpp
+        day_2/Day2.h
+        day_3/Day3.cpp
+        day_3/Day3.h
+        day_12/Day12.cpp
+        day_12/Day12.h
+        day_10/Day10.cpp
+        day_10/Day10.h
+        day_11/Day11.cpp
+        day_7/Day7.h
+        day_6/Day6.cpp
+        day_8/Day8.h
+        day_4/Day4.h
+        day_9/Day9.cpp
+        day_9/Day9.h
+        day_7/Day7.cpp
+        day_4/Day4.cpp
+        day_6/Day6.h
+        day_8/Day8.cpp
+        day_5/Day5.cpp
+        day_5/Day5.h
+        day_13/Day13.cpp
+        day_13/Day13.h
+        day_14/Day14.cpp
+        day_14/Day14.h
+        day_15/Day15.cpp
+        day_15/Day15.h
+        day_16/Day16.cpp
+        day_16/Day16.h
+        day_17/Day17.cpp
+        day_17/Day17.h
+        day_18/Day18.cpp
+        day_18/Day18.h
+        day_19/Day19.cpp
+        day_19/Day19.h
+        day_20/Day20.cpp
+        day_20/Day20.h
+        day_21/Day21.cpp
+        day_21/Day21.h
+        day_22/Day22.cpp
+        day_22/Day22.h
+        day_23/Day23.cpp
+        day_23/Day23.h
+        day_24/Day24.cpp
+        day_24/Day24.h
+        day_25/Day25.h
+        day_25/Day25.cpp
+)
