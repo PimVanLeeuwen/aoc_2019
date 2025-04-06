@@ -16,6 +16,12 @@ struct point {
     }
 };
 
+struct Compare {
+    bool operator()(const point &a, const point&b) const {
+        return a.x < b.x || (a.x == b.x && a.y < b.y);
+    }
+};
+
 struct lineSegment {
     point a;
     point b;
@@ -59,13 +65,13 @@ std::map<char, int> diff_y = {
 void Day3::execute(const std::vector<std::string>& lines) {
 
     std::vector<std::vector<lineSegment>> wires = {{}, {}};
-
-
+    std::vector<std::map<point, int64_t, Compare>> line_steps = {{}, {}};
 
     for (size_t i = 0; i < lines.size(); i++) {
         std::stringstream ss(lines[i]);
         std::string interim_result;
         point start = {0,0};
+        int64_t steps_taken = 0;
 
         while (getline(ss, interim_result, ',')) {
             char dir = interim_result[0];
@@ -74,19 +80,32 @@ void Day3::execute(const std::vector<std::string>& lines) {
             point new_point = {start.x + amount*diff_x[dir], start.y + amount*diff_y[dir]};
 
             wires[i].emplace_back(start, new_point);
+
+            point current_point = start;
+
+            for (size_t j = 0; j < amount; j++) {
+                current_point.x += diff_x[dir]; current_point.y += diff_y[dir];
+                steps_taken++;
+
+                if (line_steps[i][current_point] == 0) line_steps[i][current_point] = steps_taken;
+
+            }
+
             start = new_point;
         }
     }
 
-    int64_t max_dist = INT32_MAX;
+    int64_t part_1 = INT32_MAX, part_2 = INT32_MAX;
 
     for (lineSegment line_1 : wires[0]) {
         for (lineSegment line_2 : wires[1]) {
-            if (std::optional<point> intersect = line_1.intersect(line_2); intersect && intersect.value().distance_to_zero() < max_dist) {
-                max_dist = intersect.value().distance_to_zero();
+            if (std::optional<point> intersect = line_1.intersect(line_2); intersect) {
+                part_1 = std::min(part_1, intersect.value().distance_to_zero());
+                part_2 = std::min(part_2, line_steps[0][intersect.value()] + line_steps[1][intersect.value()]);
             }
         }
     }
 
-    std::cout << "Part 1: " << max_dist << std::endl;
+
+    std::cout << "Part 1: " << part_1 << std::endl << "Part 2: " << part_2 << std::endl;
 }
