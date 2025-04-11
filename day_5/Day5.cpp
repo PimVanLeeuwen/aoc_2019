@@ -5,9 +5,10 @@
 #include <sstream>
 #include <vector>
 
-int64_t compute_result_2(std::vector<int64_t> input) {
+int64_t intcode_computer_2(std::vector<int64_t> input, const std::vector<int> &user_input) {
     std:bool halt = false;
     size_t i = 0;
+    size_t input_i = 0;
 
 
     while (i < input.size() && !halt) {
@@ -15,7 +16,12 @@ int64_t compute_result_2(std::vector<int64_t> input) {
 
 
         while (operation.size() < 5) operation.insert(0, "0");
-        // std::cout << operation << std::endl;
+
+        int opcode = stoi(operation.substr(3));
+
+        if (opcode == 99) {
+            return input[0];
+        }
 
         int a, b;
 
@@ -31,7 +37,7 @@ int64_t compute_result_2(std::vector<int64_t> input) {
             b = input[i+2];
         }
 
-        switch (int opcode = stoi(operation.substr(3))) {
+        switch (opcode) {
 
             case 1:
                 assert(operation[0] == '0');
@@ -44,14 +50,12 @@ int64_t compute_result_2(std::vector<int64_t> input) {
                 i += 4;
                 break;
             case 3:
-                std::cout << "Input: ";
-                int user_input; std::cin >> user_input;
                 assert(operation[2] == '0');
-                input[input[i+1]] = user_input;
+                input[input[i+1]] = user_input[input_i++];
                 i += 2;
                 break;
             case 4:
-                std::cout << a << std::endl;
+                std::cout << "Output: " << a << std::endl;
                 i += 2;
                 break;
             case 5:
@@ -76,11 +80,7 @@ int64_t compute_result_2(std::vector<int64_t> input) {
                 input[input[i+3]] = a == b ? 1 : 0;
                 i += 4;
                 break;
-            case 99:
-                halt = true;
-                break;
             default:
-                std::cout << operation << std::endl;
                 assert(false);
         }
     }
@@ -98,5 +98,6 @@ void Day5::execute(const std::vector<std::string>& lines) {
         input.push_back(stol(interim_result));
     }
 
-    compute_result_2(input);
+    intcode_computer_2(input, {1});
+    intcode_computer_2(input, {5});
 }
